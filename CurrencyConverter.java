@@ -64,12 +64,12 @@ public class CurrencyConverter {
         double rate = 1;
 
         // example rates (fixed)
-        double usdToInr = 83.0;
-        double usdToEur = 0.93;
-        double eurToUsd = 1.07;
-        double eurToInr = 89.0;
-        double inrToUsd = 1.0 / 83.0;
-        double inrToEur = 1.0 / 89.0;
+        double usdToInr = 93.15;
+        double usdToEur = 0.85;
+        double eurToUsd = 1.18;
+        double eurToInr = 109.7;
+        double inrToUsd = 1.0 / 93.15;
+        double inrToEur = 1.0 / 109.7;
 
         if (from.equals("USD") && to.equals("INR")) rate = usdToInr;
         if (from.equals("USD") && to.equals("EUR")) rate = usdToEur;
